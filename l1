@@ -1,2 +1,6 @@
+a=50
+b=45
 c=1+2
 print(c)
+d=(a+b)*(a-b)
+print(d)
