@@ -1,0 +1,7 @@
+#solve the equation z
+
+x=int(input("Enter x value:"))
+y=int(input("Enter y value:"))
+a=abs(x-y)
+z=(a*(x+y))
+print(z)
