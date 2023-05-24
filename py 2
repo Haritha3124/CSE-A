@@ -1,0 +1,11 @@
+#accept three sides
+n=int(input("Enter first side:"))
+m=int(input("Enter second side:"))
+p=int(input("Enter third side:"))
+if n==m and m==p:
+    print("Equilateral triangle")
+elif n==m or m==p or p==n:
+    print("Isoceles triangle")
+else:
+    print("Scalene triangle")
+
