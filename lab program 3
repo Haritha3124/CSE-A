@@ -1,0 +1,17 @@
+n = input("enter the numbers in list:")
+m = list(n)
+print(m)
+a = input("enter the number to be found:")
+def index(m,a):
+    pindex=[]
+    nindex=[]
+    ncount = 0
+    c = len(m)
+
+    for i in  range(0,c):
+        if m[i] == a:
+            pindex.append(i)
+            nindex.append(-c+i)
+            ncount +=1
+    return (pindex,nindex,ncount)
+print(index(m,a))
