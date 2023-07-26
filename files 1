@@ -1,0 +1,6 @@
+filename=input("Enter the name of the file:")
+with open(filename,'r')as file:
+    lines=file.readlines()
+    lines.pop(4)
+    for line in lines:
+        print(line.strip())
